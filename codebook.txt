@@ -1,3 +1,6 @@
+All time-domain measurements captured at a constant rate of 50 Hz.
+All frequency-domain measurements created using Fast Fourier Transform.
+
 subject_id
 	Subject ID
 		1..30 .Unique identifier assigned across all subjects
@@ -353,6 +356,3 @@ angleYgravityMean
 angleZgravityMean
 	Mean angle between z-axis and mean gravity
 	-1..1
-
-All time-domain measurements captured at a constant rate of 50 Hz.
-All frequency-domain measurements created using Fast Fourier Transform.
