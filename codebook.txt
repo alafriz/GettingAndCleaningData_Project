@@ -1,0 +1,358 @@
+subject_id
+	Subject ID
+		1..30 .Unique identifier assigned across all subjects
+activity
+	Type of activity performed by the subject when the measurements were taken
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+
+tBodyAccmeanX
+	Mean of body acceleration along the x-axis (time-domain)
+	-1..1
+
+tBodyAccmeanY
+	Mean of body acceleration along the y-axis (time-domain)
+	-1..1
+
+tBodyAccmeanZ
+	Mean of body acceleration along the z-axis (time-domain)
+	-1..1
+
+tBodyAccstdX
+	Mean standard deviation of body acceleration along the x-axis (time-domain)
+	-1..1
+
+tBodyAccstdY
+	Mean standard deviation of body acceleration along the y-axis (time-domain)
+	-1..1
+
+tBodyAccstdZ
+	Mean standard deviation of body acceleration along the z-axis (time-domain)
+	-1..1
+
+tGravityAccmeanX
+	Mean gravity acceleration along the x-axis (time-domain)
+	-1..1
+
+tGravityAccmeanY
+	Mean gravity acceleration along the y-axis (time-domain)
+	-1..1
+
+tGravityAccmeanZ
+	Mean gravity acceleration along the z-axis (time-domain)
+	-1..1
+
+tGravityAccstdX
+	Mean standard deviation of gravity acceleration along the x-axis (time-domain)
+	-1..1
+
+tGravityAccstdY
+	Mean standard deviation of gravity acceleration along the y-axis (time-domain)
+	-1..1
+
+tGravityAccstdZ
+	Mean standard deviation of gravity acceleration along the z-axis (time-domain)
+	-1..1
+
+tBodyAccJerkmeanX
+	Mean of body linear acceleration jerk along x-axis (time-domain)
+	-1..1
+
+tBodyAccJerkmeanY
+	Mean of body linear acceleration jerk along y-axis (time-domain)
+	-1..1
+
+tBodyAccJerkmeanZ
+	Mean of body linear acceleration jerk along z-axis (time-domain)
+	-1..1
+
+tBodyAccJerkstdX
+	Mean standard deviation of body linear acceleration jerk along x-axis (time-domain)
+	-1..1
+
+tBodyAccJerkstdY
+	Mean standard deviation of body linear acceleration jerk along y-axis (time-domain)
+	-1..1
+
+tBodyAccJerkstdZ
+	Mean standard deviation of body linear acceleration jerk along z-axis (time-domain)
+	-1..1
+
+tBodyGyromeanX
+	Mean of body angular velocity along x-axis (time-domain)
+	-1..1
+
+tBodyGyromeanY
+	Mean of body angular velocity along y-axis (time-domain)
+	-1..1
+
+tBodyGyromeanZ
+	Mean of body angular velocity along z-axis (time-domain)
+	-1..1
+
+tBodyGyrostdX
+	Mean standard deviation of body angular velocity along x-axis (time-domain)
+	-1..1
+
+tBodyGyrostdY
+	Mean standard deviation of body angular velocity along y-axis (time-domain)
+	-1..1
+
+tBodyGyrostdZ
+	Mean standard deviation of body angular velocity along z-axis (time-domain)
+	-1..1
+
+tBodyGyroJerkmeanX
+	Mean of body angular velocity jerk along x-axis (time-domain)
+	-1..1
+
+tBodyGyroJerkmeanY
+	Mean of body angular velocity jerk along y-axis (time-domain)
+	-1..1
+
+tBodyGyroJerkmeanZ
+	Mean of body angular velocity jerk along z-axis (time-domain)
+	-1..1
+
+tBodyGyroJerkstdX
+	Mean standard deviation of body angular velocity jerk along x-axis (time-domain)
+	-1..1
+
+tBodyGyroJerkstdY
+	Mean standard deviation of body angular velocity jerk along y-axis (time-domain)
+	-1..1
+
+tBodyGyroJerkstdZ
+	Mean standard deviation of body angular velocity jerk along z-axis (time-domain)
+	-1..1
+
+tBodyAccMagmean
+	Mean of body acceleration magnitude (time-domain)
+	-1..1
+
+tBodyAccMagstd
+	Mean standard deviation of body acceleration magnitude (time-domain)
+	-1..1
+
+tGravityAccMagmean
+	Mean of gravity acceleration magnitude (time-domain)
+	-1..1
+
+tGravityAccMagstd
+	Mean standard deviation of gravity acceleration magnitude (time-domain)
+	-1..1
+
+tBodyAccJerkMagmean
+	Mean of body acceleration jerk magnitude (time-domain)
+	-1..1
+
+tBodyAccJerkMagstd
+	Mean standard deviation of body acceleration jerk magnitude (time-domain)
+	-1..1
+
+tBodyGyroMagmean
+	Mean of body angular velocity magnitude (time-domain)
+	-1..1
+
+tBodyGyroMagstd
+	Mean standard deviation of body angular velocity magnitude (time-domain)
+	-1..1
+
+tBodyGyroJerkMagmean
+	Mean of body angular velocity jerk magnitude (time-domain)
+	-1..1
+
+tBodyGyroJerkMagstd
+	Mean standard deviation of body angular velocity jerk magnitude (time-domain)
+	-1..1
+
+fBodyAccmeanX
+	Mean of body acceleration along the x-axis (frequency-domain)
+	-1..1
+
+fBodyAccmeanY
+	Mean of body acceleration along the y-axis (frequency-domain)
+	-1..1
+
+fBodyAccmeanZ
+	Mean of body acceleration along the z-axis (frequency-domain)
+	-1..1
+
+fBodyAccstdX
+	Mean standard deviation of body acceleration along the x-axis (frequency-domain)
+	-1..1
+
+fBodyAccstdY
+	Mean standard deviation of body acceleration along the y-axis (frequency-domain)
+	-1..1
+
+fBodyAccstdZ
+	Mean standard deviation of body acceleration along the z-axis (frequency-domain)
+	-1..1
+
+fBodyAccmeanFreqX
+	Mean frequency of body acceleration along the x-axis (frequency-domain)
+	-1..1
+
+fBodyAccmeanFreqY
+	Mean frequency of body acceleration along the y-axis (frequency-domain)
+	-1..1
+
+fBodyAccmeanFreqZ
+	Mean frequency of body acceleration along the z-axis (frequency-domain)
+	-1..1
+
+fBodyAccJerkmeanX
+	Mean of body acceleration jerk along the x-axis (frequency-domain)
+	-1..1
+
+fBodyAccJerkmeanY
+	Mean of body acceleration jerk along the y-axis (frequency-domain)
+	-1..1
+
+fBodyAccJerkmeanZ
+	Mean of body acceleration jerk along the z-axis (frequency-domain)
+	-1..1
+
+fBodyAccJerkstdX
+	Mean standard deviation of body acceleration jerk along the x-axis (frequency-domain)
+	-1..1
+
+fBodyAccJerkstdY
+	Mean standard deviation of body acceleration jerk along the y-axis (frequency-domain)
+	-1..1
+
+fBodyAccJerkstdZ
+	Mean standard deviation of body acceleration jerk along the z-axis (frequency-domain)
+	-1..1
+
+fBodyAccJerkmeanFreqX
+	Mean frequency of body acceleration jerk along the x-axis (frequency-domain)
+	-1..1
+
+fBodyAccJerkmeanFreqY
+	Mean frequency of body acceleration jerk along the y-axis (frequency-domain)
+	-1..1
+
+fBodyAccJerkmeanFreqZ
+	Mean frequency of body acceleration jerk along the z-axis (frequency-domain)
+	-1..1
+
+fBodyGyromeanX
+	Mean of body angular velocity along the x-axis (frequency-domain)
+	-1..1
+
+fBodyGyromeanY
+	Mean of body angular velocity along the y-axis (frequency-domain)
+	-1..1
+
+fBodyGyromeanZ
+	Mean of body angular velocity along the z-axis (frequency-domain)
+	-1..1
+
+fBodyGyrostdX
+	Mean standard deviation of body angular velocity along the x-axis (frequency-domain)
+	-1..1
+
+fBodyGyrostdY
+	Mean standard deviation of body angular velocity along the y-axis (frequency-domain)
+	-1..1
+
+fBodyGyrostdZ
+	Mean standard deviation of body angular velocity along the z-axis (frequency-domain)
+	-1..1
+
+fBodyGyromeanFreqX
+	Mean frequency of body angular velocity along the x-axis (frequency-domain)
+	-1..1
+
+fBodyGyromeanFreqY
+	Mean frequency of body angular velocity along the y-axis (frequency-domain)
+	-1..1
+
+fBodyGyromeanFreqZ
+	Mean frequency of body angular velocity along the z-axis (frequency-domain)
+	-1..1
+
+fBodyAccMagmean
+	Mean magnitude of body angular velocity (frequency-domain)
+	-1..1
+
+fBodyAccMagstd
+	Mean standard deviation magnitude of body angular velocity (frequency-domain)
+	-1..1
+
+fBodyAccMagmeanFreq
+	Mean frequency magnitude of body angular velocity (frequency-domain)
+	-1..1
+
+fBodyBodyAccJerkMagmean
+	Mean magnitude of body body acceleration jerk (frequency-domain)
+	-1..1
+
+fBodyBodyAccJerkMagstd
+	Mean standard deviation of magnitude of body body acceleration jerk (frequency-domain)
+	-1..1
+
+fBodyBodyAccJerkMagmeanFreq
+	Mean magnitude frequency of body body acceleration jerk (frequency-domain)
+	-1..1
+
+fBodyBodyGyroMagmean
+	Mean magnitude frequency of body body angular velocity (frequency-domain)
+	-1..1
+
+fBodyBodyGyroMagstd
+	Mean standard deviation of magnitude of body body angular velocity (frequency-domain)
+	-1..1
+
+fBodyBodyGyroMagmeanFreq
+	Mean frequency of magnitude of body body angular velocity (frequency-domain)
+	-1..1
+
+fBodyBodyGyroJerkMagmean
+	Mean frequency of magnitude of body body angular velocity jerk (frequency-domain)
+	-1..1
+
+fBodyBodyGyroJerkMagstd
+	Mean standard deviation magnitude of frequency of body body angular velocity (frequency-domain)
+	-1..1
+
+fBodyBodyGyroJerkMagmeanFreq
+	Mean frequency of magnitude of body body angular velocity (frequency-domain)
+	-1..1
+
+angletBodyAccMeangravity
+	Mean angle between average body acceleration and gravity
+	-1..1
+
+angletBodyAccJerkMeangravityMean
+	Mean angle between average body acceleration jerk and mean gravity
+	-1..1
+
+angletBodyGyroMeangravityMean
+	Mean angle between average body angular velocity and mean gravity
+	-1..1
+
+angletBodyGyroJerkMeangravityMean
+	Mean angle between average body angular velocity and mean gravity
+	-1..1
+
+angleXgravityMean
+	Mean angle between x-axis and mean gravity
+	-1..1
+
+angleYgravityMean
+	Mean angle between y-axis and mean gravity
+	-1..1
+
+angleZgravityMean
+	Mean angle between z-axis and mean gravity
+	-1..1
+
+All time-domain measurements captured at a constant rate of 50 Hz.
+All frequency-domain measurements created using Fast Fourier Transform.
